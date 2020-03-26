@@ -1,0 +1,7 @@
+*.jpg filter=lfs diff=lfs merge=lfs -text
+test_dog filter=lfs diff=lfs merge=lfs -text
+test_cat filter=lfs diff=lfs merge=lfs -text
+test_dog.dir filter=lfs diff=lfs merge=lfs -text
+test_cat.dir filter=lfs diff=lfs merge=lfs -text
+*.dir filter=lfs diff=lfs merge=lfs -text
+test_dog/*.jpg filter=lfs diff=lfs merge=lfs -text
